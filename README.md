@@ -72,13 +72,53 @@ Planned improvements and new features include:
    git clone https://github.com/your-username/coaching-center-dashboard.git
    cd coaching-center-dashboard
 
-
+2. **Install dependencies:**
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+    npm install
+    # or
+    yarn install
 ```
+
+3. **Run the development server:**
+```bash
+    npm run dev
+    # or
+    yarn dev
+```
+
+4. **Open your browser and visit:**
+```bash
+    http://localhost:3000
+```
+
+**Build for Production**
+```bash
+    npm run build
+    npm start
+```
+---
+
+### Project Structure
+```bash
+    src/
+    app/                # Next.js app directory (pages, layouts, etc.)
+    components/         # Reusable React components (forms, modals, charts, etc.)
+    lib/                # Data, utilities, and helper functions
+    public/             # Static assets (images, icons)
+    styles/             # Global and component-specific styles
+```
+
+---
+
+### Contributing
+Contributions are welcome! Please fork the repository and submit a pull request for review.
+
+---
+
+### License
+This project is licensed under the MIT License.
+
+---
+
+### Contact
+For questions, suggestions, or support, please contact [khaironnahar247@gmail.com].
