@@ -100,12 +100,12 @@ Planned improvements and new features include:
 
 ### Project Structure
 ```bash
+    public/                 # Static assets (images, icons)
     src/
-    app/                # Next.js app directory (pages, layouts, etc.)
-    components/         # Reusable React components (forms, modals, charts, etc.)
-    lib/                # Data, utilities, and helper functions
-    public/             # Static assets (images, icons)
-    styles/             # Global and component-specific styles
+        app/                # Next.js app directory (pages, layouts, etc.)
+        components/         # Reusable React components (forms, modals, charts, etc.)
+        lib/                # Data, utilities, and helper functions
+        styles/             # Global and component-specific styles
 ```
 
 ---
